@@ -41,7 +41,7 @@ body {
 }
 
 .details_container {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
