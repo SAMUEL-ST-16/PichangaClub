@@ -1,0 +1,144 @@
+body {
+  background-image: url("../img/encabezado.PNG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav-bar_container {
+  background-color: #005140;
+  width: 100%;
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-buttons button {
+  background-color: gray;
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.logo_container img {
+  height: 100px;
+}
+
+.details_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.image_container {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.image_container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.contact_section {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+}
+
+.contact_section h3 {
+  color: #005140;
+}
+
+.products_section {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+}
+
+.products_section h3 {
+  color: #005140;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.icons-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  height: 65px;
+  background-color: #005140;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_icon{
+  width: 24px;
+  height: 24px;
+}
+.footer_link{
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer_social{
+  margin-top: 20px;
+}
+
+footer img {
+  width: 50px;
+  margin-right: 10px;
+  filter: invert(1);
+}
+
+footer h4 {
+  color: white;
+}
+

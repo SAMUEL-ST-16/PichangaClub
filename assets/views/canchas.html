@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pichanga Club</title>
+    <link rel="stylesheet" href="../styles/contacsStyles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../../index.html">
+          <img
+            src="../img/PichangaClubLogo-Transparent.png"
+            alt="Airview Photography Logo"
+          />
+        </a>
+      </div>
+      <div class="auth-buttons">
+        <button><a href="../../index.html">Volver</a></button>
+      </div>
+    </header>
+ 
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.cancha-catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cancha {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cancha img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cancha:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.overlay button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.overlay button:hover {
+    background-color: #ddd;
+}
+
+.footer {
+    background-color: #81bfe8;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+</style>
+<body>
+    <section class="cancha-catalogo">
+        <div class="cancha">
+            <img src="../img/goles de oro.jpg" alt="GOLES DE ORO">
+            <div class="overlay">
+                <h3>GOLES DE ORO</h3>
+                <a href="reservas.html?canchaId=golesdeoro"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logopotokar.jpeg" alt="POTOKAR">
+            <div class="overlay">
+                <h3>POTOKAR</h3>
+                <a href="reservas.html?canchaId=potokar"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logovidena.jpg" alt="LA VIDENA">
+            <div class="overlay">
+                <h3>LA VIDENA</h3>
+                <a href="reservas.html?canchaId=videna"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logofortin.jpg" alt="FORTIN">
+            <div class="overlay">
+                <h3>FORTIN DE LA BELLA</h3>
+                <a href="reservas.html?canchaId=fortin"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logomorumbi.jpg" alt="MORUMBI">
+            <div class="overlay">
+                <h3>EL MORUMBI</h3>
+                <a href="reservas.html?canchaId=morumbi"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logobuencamino.jpg" alt="EL BUEN CAMINO">
+            <div class="overlay">
+                <h3>EL BUEN CAMINO</h3>
+                <a href="reservas.html?canchaId=buencamino"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logonacional.jpg" alt="EL NACIONAL">
+            <div class="overlay">
+                <h3>EL NACIONAL</h3>
+                <a href="reservas.html?canchaId=nacional"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logorealcastillo.jpg" alt="REAL CASTILLO">
+            <div class="overlay">
+                <h3>REAL CASTILLO</h3>
+                <a href="reservas.html?canchaId=realcastillo"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logoperuano.jpg" alt="EL PERUANO">
+            <div class="overlay">
+                <h3>EL PERUANITO</h3>
+                <a href="reservas.html?canchaId=peruanito"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logoblanquirroja.jpg" alt="LA BLANQUIROJA">
+            <div class="overlay">
+                <h3>LA BLANQUIROJA</h3>
+                <a href="reservas.html?canchaId=blanqui"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logonissi.jpg" alt="NISSI">
+            <div class="overlay">
+                <h3>NISSI</h3>
+                <a href="reservas.html?canchaId=nissi"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logos/logojeftaro.jpg" alt="JEFTARO">
+            <div class="overlay">
+                <h3>JEFTARO</h3>
+                <a href="reservas.html?canchaId=jeftaro"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/canchas/logoatlantic.jpeg" alt="EL MARACANAZO">
+            <div class="overlay">
+                <h3>ATLANTIC</h3>
+                <a href="reservas.html?canchaId=atlantic"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+        <div class="cancha">
+            <img src="../img/maracanazo.png" alt="EL MARACANAZO">
+            <div class="overlay">
+                <h3>EL MARACANAZO</h3>
+                <a href="reservas.html?canchaId=maracanazo"><button>Ver más</button></a>
+            </div>
+            <div class="footer">
+                <p>Contactar</p>
+                <img src="../img/logo/PICHANG.png" alt="PICHANGA CLUB">
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>&copy; Pichanga Club, All Rights Reserved</p>
+  </footer>
+</html>
