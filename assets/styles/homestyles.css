@@ -182,3 +182,40 @@ footer img {
 footer h4 {
   color: white;
 }
+.footer_icon{
+  width: 24px;
+  height: 24px;
+}
+.footer_link{
+  display: inline-block;
+  margin-right: 10px;
+}
+.imagen{
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;    /* Centrar verticalmente */
+  height: 10vh;          /* Altura del contenedor para verlo mejor */
+  background-color: white; /* Color de fondo para contraste */
+}
+.form-image {
+  width: 50px; /* Ajusta este valor según el tamaño deseado */
+  height: auto;
+}
+.survey-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre la imagen y el botón */
+}
+.survey-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.survey-button:hover {
+  background-color: #0056b3;
+}
