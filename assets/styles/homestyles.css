@@ -18,29 +18,34 @@ body {
 .nav-bar {
   width: 90%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start; /* Alinear todo a la izquierda */
+  align-items: center; /* Centrar verticalmente logo y menú */
+  gap: 40px; /* Espaciado entre logo y menú */
 }
 
 .logo_container img {
-  height: 100;
+  height: 70px; /* Tamaño fijo para evitar alteraciones */
+  width: auto; /* Mantener proporciones */
 }
 
 .menus_container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
+  justify-content: flex-start; /* Alinear enlaces hacia la izquierda */
+  align-items: center; /* Centrar verticalmente */
+  gap: 20px; /* Espaciado entre enlaces */
 }
 
 a {
   color: white;
   text-decoration: none;
+  font-size: 16px; /* Tamaño de texto legible */
+  font-weight: bold; /* Opcional, para mejor visibilidad */
 }
 
 a:hover {
   color: #f26b1d;
 }
+
 
 .image-background_container {
   background-image: url("../img/muralla china.PNG");
