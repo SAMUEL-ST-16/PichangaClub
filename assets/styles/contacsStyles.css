@@ -49,7 +49,7 @@ nav ul li a {
 }
 
 .auth-buttons button {
-  background-color: gray;
+  background-color: #f26b1d;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -69,11 +69,15 @@ main {
 .contact {
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: #f2f2f2; /* Blanco roto para mejor contraste */
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente oscuro */
+  padding: 20px; /* Añadir espacio interno para un diseño más limpio */
+  border-radius: 8px; /* Bordes redondeados para un diseño moderno */
 }
 
+
 .contact-info {
-  width: 45%;
+  width: 40%;
 }
 
 .contact-info h2 {
@@ -126,6 +130,7 @@ main {
   font-size: 14px;
   border: none;
   box-sizing: border-box;
+  z-index: 40;
 }
 
 .contact-form input:focus,

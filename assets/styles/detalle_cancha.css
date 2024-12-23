@@ -28,12 +28,16 @@ body {
 }
 
 .auth-buttons button {
-  background-color: gray;
+  background-color: #f26b1d;
   color:white;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   margin-right: 10px;
+}
+.auth-buttons .register {
+  background-color: #f26b1d;
+  color: white;
 }
 
 .logo_container img {
